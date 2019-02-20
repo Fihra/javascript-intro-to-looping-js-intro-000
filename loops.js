@@ -8,7 +8,7 @@ function forLoop(array){
         //console.log("I am " + i + " strange loop.");
       }
       else{
-        console.log("I am ${i} strange loops${i === 0 ? '' : 's'}.");
+        console.log("I am ${i} strange loop${i === 0 ? '' : 's'}.");
         array.push(i);
         //console.log("I am ${i} strange loops.");
       }

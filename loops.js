@@ -9,7 +9,7 @@ function forLoop(array){
        //array.push(newString);
         //array[i].push("I am ${i} strange loops.");
         //array[i] = "I am ${i} strange loops.";
-        array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
+        array.push("I am ${i} strange loop${i === 0 ? '' : 's'}.");
       }
       return array;
     }

@@ -11,7 +11,7 @@ function forLoop(array){
       else{
         //console.log(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
       //  array.push(i);
-        array[i] = "I am ${i} strange loop${i === 0 ? '' : 's'}.";
+        array[i] = "I am ${i} strange loop${i === 0 ? '' ; 's'}.";
         //console.log("I am ${i} strange loops.");
       }
       return array;

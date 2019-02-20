@@ -6,8 +6,7 @@ function forLoop(array){
       else{
         array.push("I am ${i} strange loop${i === 0 ? '' : 's'}.");
       }
-      return array;
-    }
+    }return array;
 }
 
 function whileLoop(n){

@@ -2,7 +2,7 @@ function forLoop(array){
   //var newString;
     for(let i = 0; i < 25; i++){
       if (i === 1){
-        array[i].push("I am ${i} strange loop.");
+        array.push("I am ${i} strange loop.");
         //array[i] = "I am ${i} strange loop.";
       }
       else{
@@ -10,7 +10,7 @@ function forLoop(array){
        //array.push(newString);
         //array[i].push("I am ${i} strange loops.");
         //array[i] = "I am ${i} strange loops.";
-        array[i].push("I am ${i} strange loop${i === 0 ? '' : 's'}.");
+        array.push("I am ${i} strange loop${i === 0 ? '' : 's'}.");
       }
       return array;
     }

@@ -5,13 +5,13 @@ function forLoop(array){
       if (i === 1){
         //console.log(`"I am ${i} strange loop."`);
         //array.push(i);
-        array.push("I am ${i} strange loop.");
+        array[i] = "I am ${i} strange loop.";
         //console.log("I am " + i + " strange loop.");
       }
       else{
         //console.log(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
       //  array.push(i);
-        array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
+        array[i] = "I am ${i} strange loop${i === 0 ? '' : 's'}.";
         //console.log("I am ${i} strange loops.");
       }
       return array;
